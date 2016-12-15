@@ -130,8 +130,8 @@
                                     <td>{{ forloop.counter }}</td> 
                                     <td>{{ question.name }}</td>
                                     <td>{{ question.question_text }}</td>
-                                    <td><img src="{{ MEDIA_URL }}{{ question.image }}" style="width: 200px;"></td>
-                                    <td><img src="{{ MEDIA_URL }}{{ question.file }}" style="width: 200px;"></td>
+                                    <td><img src="{{ MEDIA_URL }}{{ question.image }}" style="width: 60px;"></td>
+                                    <td><img src="{{ MEDIA_URL }}{{ question.file }}" style="width: 60px;"></td>
                                     <td>{{ question.pub_date }}</td>
                                     <td>
                                         <a href="{% url 'firstapp:editdata' question.id %}">Edit</a> | 
@@ -147,8 +147,8 @@
                                     <td>{{ forloop.counter }}</td> 
                                     <td>{{ question.name }}</td>
                                     <td>{{ question.question_text }}</td>
-                                    <td><img src="{{ MEDIA_URL }}{{ question.image }}" style="width: 200px;"></td>
-                                    <td><img src="{{ MEDIA_URL }}{{ question.file }}" style="width: 200px;"></td>
+                                    <td><img src="{{ MEDIA_URL }}{{ question.image }}" style="width: 60px;"></td>
+                                    <td><img src="{{ MEDIA_URL }}{{ question.file }}" style="width: 60px;"></td>
                                     <td>{{ question.pub_date }}</td>
                                     <td>
                                         <a href="{% url 'firstapp:editdata' question.id %}">Edit</a> | 
