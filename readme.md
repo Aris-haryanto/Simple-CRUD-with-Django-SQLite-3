@@ -2,19 +2,21 @@
 
 ### Prepare
 - Download Python Here `required python version 3.4.x` [https://www.python.org/downloads/](https://www.python.org/downloads/)
-- Install it, Dont know how to install ? search on google dont be a lazy programmer
+- Install it
 - Install Django you can choose 3 easy step to install here [https://docs.djangoproject.com/en/1.10/intro/install/](https://docs.djangoproject.com/en/1.10/intro/install/)
-- open your command line type this in python cli 
-  `>>> import django
+- open your command line type this in python cli
+```php
+	>>> import django
 	>>> print(django.get_version())
 	1.10`
+```
+- done
 
 ### How to Run
 
-- Run MongoDB service here [https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/](https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/)
-- Clone or Download as zip extract to root directory
-- open your terminal, point to your project directory and type `composer install`
-- Rename env.example to env opened then change with your settings
+- Move all of this files to django folder project (replace it)
+- open your command line and type `python manage.py runserver`
+- open your browser and type url [http://localhost:8000/firstapp/](http://localhost:8000/firstapp/)
 - Thats it !
 
 ### License
